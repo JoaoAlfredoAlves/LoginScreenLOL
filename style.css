@@ -112,3 +112,37 @@
 .login__icons .icons__button:nth-child(3) {
     background-color: var(--black);
 }
+
+.login__label--checkbox {
+    width: 100%;
+    margin: 15px 0 50px;
+    font-size-adjust: 0.9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.input--checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: var(--light-grey);
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.input--checkbox:checked {
+    background-color: var(--red);
+    transition: 200ms ease-in-out;
+}
+
+.input--checkbox:checked::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 3px solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    margin: 2px 6px;
+}
