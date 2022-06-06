@@ -146,3 +146,32 @@
     transform: rotate(45deg);
     margin: 2px 6px;
 }
+
+.login__button {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.login__button svg {
+    fill: white;
+}
+
+.login__button:disabled {
+    cursor: auto;
+    background-color: white;
+    border: 2px solid var(--light-grey);
+}
+
+.login__button:disabled svg {
+    fill: var(--grey);
+}
+
