@@ -175,3 +175,12 @@
     fill: var(--grey);
 }
 
+.login__link {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--medium-grey);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
