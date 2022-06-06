@@ -66,9 +66,16 @@
     color: var(--medium-grey);
     margin: 20px;
     cursor: text;
+    transition: all 200ms ease;
 }
 
 .input:focus {
     background-color: var(--white-smoke);
     border: 2px solid var(--deep-grey);
 }
+
+.login__label .span-active {
+    font-size: 0.7em;
+    margin: 8px 10px;
+}
+
