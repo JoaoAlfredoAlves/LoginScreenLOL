@@ -18,3 +18,57 @@
     --blue: #1b77f3;
     --red: #cf3c3f;
 }
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
+}
+
+.login__logo {
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+.login__title {
+    color: var(--deep-grey);
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.login__label {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+.login__label span {
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+}
+
+.input:focus {
+    background-color: var(--white-smoke);
+    border: 2px solid var(--deep-grey);
+}
