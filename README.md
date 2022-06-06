@@ -1,6 +1,6 @@
 # LoginScreenLOL
 
-o **LoginScreenLOL** é uma página web que simula a tela de login do jogo **League of Legends** da **Riot Games**
+O **LoginScreenLOL** é uma página web que simula a tela de login do jogo **League of Legends** da **Riot Games**
 
 ---
 
@@ -12,7 +12,7 @@ o **LoginScreenLOL** é uma página web que simula a tela de login do jogo **Lea
 
 ---
 
-### Atribuição dos ícones usados
+### Atribuição dos Ícones Usados
 
 <a href="https://www.flaticon.com/free-icons/brand" title="brand icons">Apple Icon (Freepik - Flaticon)</a>
 
