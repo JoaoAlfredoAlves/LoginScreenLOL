@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <script src="script.js" defer></script>
 
@@ -15,47 +16,51 @@
     <main>
         <section class="login">
             
-            <img src="images/logo.png" class="login__logo" alt="Logo Riot Games">
+            <div class="wrapper">
+                <img src="images/logo.png" class="login__logo" alt="Logo Riot Games">
 
-            <h1 class="login__title">Fazer login</h1>
-
-            <label class="login__label">
-                <span class="span-active">nome de usuário</span>
-                <input type="text" name="username" class="input">
-            </label>
-            
-            <label class="login__label">
-                <span>senha</span>
-                <input type="password" name="password" class="input">
-            </label>
-
-            <div class="login__icons">
-                <button type="button" class="icons__button">
-                    <img src="images/facebook-icon.png" alt="facebook">
-                </button>
-
-                <button type="button" class="icons__button">
-                    <img src="images/google-icon.png" alt="google">
-                </button>
-
-                <button type="button" class="icons__button">
-                    <img src="images/apple-icon.png" alt="apple">
-                </button>
+                <h1 class="login__title">Fazer login</h1>
+    
+                <label class="login__label">
+                    <span class="span-active">nome de usuário</span>
+                    <input type="text" name="username" class="input">
+                </label>
+                
+                <label class="login__label">
+                    <span>senha</span>
+                    <input type="password" name="password" class="input">
+                </label>
+    
+                <div class="login__icons">
+                    <button type="button" class="icons__button">
+                        <img src="images/facebook-icon.png" alt="facebook">
+                    </button>
+    
+                    <button type="button" class="icons__button">
+                        <img src="images/google-icon.png" alt="google">
+                    </button>
+    
+                    <button type="button" class="icons__button">
+                        <img src="images/apple-icon.png" alt="apple">
+                    </button>
+                </div>
+    
+                <label class="login__label--checkbox">
+                    <input type="checkbox" class="input--checkbox">
+                    Manter login
+                </label>
             </div>
 
-            <label class="login__label--checkbox">
-                <input type="checkbox" class="input--checkbox">
-                Manter login
-            </label>
-
-            <button type="button" class="login__button" disabled>
-                <img 
-                src="images/seta-icon.svg" 
-                alt="iconde de uma seta">
-            </button>
-
-            <a href="#" class="login__link">não consegue iniciar sessão?</a>
-            <a href="#" class="login__link">criar conta</a>
+            <div class="wrapper">
+                <button type="button" class="login__button" disabled>
+                    <img 
+                    src="images/seta-icon.svg" 
+                    alt="iconde de uma seta">
+                </button>
+    
+                <a href="#" class="login__link">não consegue iniciar sessão?</a>
+                <a href="#" class="login__link">criar conta</a>
+            </div>
 
         </section>
 

@@ -19,14 +19,27 @@
     --red: #cf3c3f;
 }
 
+main {
+    display: flex;
+}
+
 .login {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 500px;
     min-height: 100vh;
     padding: clamp(35px, 8%, 70px);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .login__logo {
@@ -184,3 +197,10 @@
     font-weight: 700;
 }
 
+.wallpaper {
+    width: 100%;
+    background-image: url(images/wallpaper.webp);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
