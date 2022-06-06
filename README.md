@@ -1,5 +1,16 @@
 # LoginScreenLOL
-This is a web application that simulates the login screen of lol
+
+o **LoginScreenLOL** é uma página web que simula a tela de login do jogo **League of Legends** da **Riot Games**
+
+---
+
+### Linguagens e Tecnologias Usadas
+
+- HTML 5
+- CSS 3
+- JavaScript
+
+---
 
 ### Atribuição dos ícones usados
 
@@ -7,4 +18,3 @@ This is a web application that simulates the login screen of lol
 
 <a href='https://pngpart.com/images/bt/facebook-icon-white-7.png'>Facebook Icon (PngPart)</a>
 
-<a href='https://icones.pro/pt/icone-de-seta-para-a-direita-simbolo-png-preto/'>Seta Icon (icones.pro)</a> 
