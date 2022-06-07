@@ -118,12 +118,24 @@ main {
     background-color: var(--blue);
 }
 
+.login__icons .icons__button:nth-child(1):hover {
+    background-color: #1b79f3da !important;
+}
+
 .login__icons .icons__button:nth-child(2) {
     background-color: var(--light-grey);
 }
 
+.login__icons .icons__button:nth-child(2):hover {
+    background-color: #c0c0c083 !important;
+}
+
 .login__icons .icons__button:nth-child(3) {
     background-color: var(--black);
+}
+
+.login__icons .icons__button:nth-child(3):hover {
+    background-color: var(--deep-grey) !important;
 }
 
 .login__label--checkbox {
