@@ -1,13 +1,13 @@
 <h1 align="center">LoginScreenLOL</h1>
 
 <div align="center">
- <a href="https://github.com/devs-e-perigosos" display="block">
-  <img src="images/wallpaper.jpg" alt="Imagem do Site"/>
+ <a href="https://joaoalfredoalves.github.io/LoginScreenLOL/" display="block">
+  <img src="images/imagemReadme.jpeg" alt="Imagem do Site"/>
  </a>
 </div>
  
 <div align="center">
- <p>Site que simula a tela de login do jogo <br> <strong>League of Legends</strong> da <strong>Riot Games</strong></p>
+ <p>Clique na Imagem para Acessar o <strong>LoginScreenLOL</strong>! <br>Site que simula a tela de login do jogo <br> <strong>League of Legends</strong> da <strong>Riot Games</strong></p>
 </div>
 
 &nbsp;
